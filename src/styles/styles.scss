@@ -1,0 +1,85 @@
+// global
+@import './global/reset';
+@import './global/variables';
+
+// mixins
+@import './mixins/forsize';
+@import './mixins/mixins';
+
+// components
+@import './components/header';
+@import './components/mainContainer';
+@import './components/subContainer';
+@import './components/footer';
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
+
+::selection {
+    background-color: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+body {
+  font-family: $font-ss
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  @include for-size(desktop-up){
+    width: 80%;
+  }
+}
+
+.Centered {
+  align-items: center;
+  margin: auto;
+}
+
+.center {
+  align-self: center;
+}
+
+/*.close{
+  display: none;
+}*/
+
+.menuOpen{
+  display: block;
+}

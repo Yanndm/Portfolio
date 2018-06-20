@@ -1,0 +1,231 @@
+p{
+  color: $mainColor;
+}
+
+.subContainer{
+  height: 500px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.headerMenuOn{
+
+}
+
+/*
+------------------------- HOME
+*/
+
+
+.home{
+  width: 320px;
+  height: 500px;
+}
+
+.avatar{
+  height: 83px;
+  width: 78px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.help{
+  font-size: 18px;
+  margin-top: 304px;
+  text-align: center;
+  }
+
+
+.name{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+
+
+}
+
+/*
+------------------------- ABOUT
+*/
+
+.about{
+  width: 320px;
+  height: 304px;
+  text-align: center;
+}
+
+.aboutContainer{
+  width: 300px;
+  height: 200px;
+  margin-left: 25px;
+
+}
+
+.aboutTitle{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.aboutText{
+  font-size: 18px;
+}
+
+
+/*
+------------------------- PROJECT
+*/
+
+.project{
+  width: 320px;
+  height: 304px;
+  text-align: center;
+}
+
+.projectContainer{
+  width: 300px;
+  height: 500px;
+}
+
+.projectTitle{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.projectContentContainer{
+  width: 345px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectContent {
+  width: 138px;
+  height: 115px;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: $mainColor;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+
+/*
+------------------------- CONTACT
+*/
+
+.contact{
+  width: 320px;
+  height: 304px;
+  text-align: center;
+}
+
+.Container{
+  width: 300px;
+  height: 200px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.contactTitle{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.contactText{
+  font-size: 25px;
+  color: $linkColor;
+  font-weight: bold;
+}
+
+.icon{
+  font-size: 50px;
+  color: $mainColor;
+}
+
+/*
+--------------------------- MENU MOBILE
+ */
+
+.menu{
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 646px;
+  background: $mainColor;
+  z-index: 99;
+  position: absolute;
+  display: none;
+}
+
+.headerMenuOff{
+
+}
+
+.menuContainer{
+  margin-top: 120px;
+
+}
+
+
+.menuContainer p{
+  color: $themeColor;
+  font-size: 24px;
+  text-align: center;
+  border-top: solid 1px;
+  padding: 25px 0 10px 0;
+  width: 230px;
+  margin-left: 45px;
+
+}
+
+.headerNameMenu{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+/* -------------------- PROJECT DESCRIPTION ------------ */
+
+.projectDescription{
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 646px;
+  background: $mainColor;
+  z-index: 99;
+  position: absolute;
+}
+
+.projectDescriptionContainerTop{
+  margin-top: 50px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.projectImg{
+  width: 138px;
+  height: 115px;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: $mainColor;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.projectDescription p{
+  color: $themeColor;
+}
